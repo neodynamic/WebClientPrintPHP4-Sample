@@ -69,7 +69,7 @@ if (isset($urlParts['query'])){
             
             ob_start();
             ob_clean();
-            header('text/javascript');
+            header('Content-type: text/javascript');
             echo WebClientPrint::generateScript($currentAbsoluteURL, $query);
             return;
         } 
