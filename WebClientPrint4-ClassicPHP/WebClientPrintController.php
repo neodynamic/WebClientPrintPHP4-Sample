@@ -25,7 +25,7 @@ WebClientPrint::$wcpCacheFolder = getcwd().'/wcpcache/';
 if (file_exists(WebClientPrint::$wcpCacheFolder) == false) {
     //create wcpcache folder
     $old_umask = umask(0);
-    mkdir($create_path, 0777);
+    mkdir(WebClientPrint::$wcpCacheFolder, 0777);
     umask($old_umask);
 }
 
