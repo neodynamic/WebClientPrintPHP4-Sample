@@ -22,7 +22,7 @@ if (isset($urlParts['query'])) {
     if (isset($qs[WebClientPrint::CLIENT_PRINT_JOB])) {
         
         //get printer commands
-        $printerCommands = $qs['printerCommands'];
+        $printerCommands = urldecode($qs['printerCommands']);
 
         //get printer settings
         $printerTypeId = $qs['pid'];
