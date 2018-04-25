@@ -41,7 +41,7 @@ class DemoPrintCommandsController extends Controller
        if ($request->exists(WebClientPrint::CLIENT_PRINT_JOB)) {
 
             //get printer commands
-            $printerCommands = $request->input('printerCommands');
+            $printerCommands = urldecode($request->input('printerCommands'));
 
             //get printer settings
             $printerTypeId = $request->input('pid');
