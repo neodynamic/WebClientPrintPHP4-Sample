@@ -160,14 +160,18 @@
             var idx = $("#lstPrinters")[0].selectedIndex;
             // get supported trays
             var options = '';
-            for (var i = 0; i < clientPrinters[idx].trays.length; i++) {
-                options += '<option>' + clientPrinters[idx].trays[i] + '</option>';
+            if (clientPrinters[idx].trays) {
+                for (var i = 0; i < clientPrinters[idx].trays.length; i++) {
+                    options += '<option>' + clientPrinters[idx].trays[i] + '</option>';
+                }
             }
             $('#lstPrinterTrays').html(options);
             // get supported papers
             options = '';
-            for (var i = 0; i < clientPrinters[idx].papers.length; i++) {
-                options += '<option>' + clientPrinters[idx].papers[i] + '</option>';
+            if (clientPrinters[idx].papers) {
+                for (var i = 0; i < clientPrinters[idx].papers.length; i++) {
+                    options += '<option>' + clientPrinters[idx].papers[i] + '</option>';
+                }
             }
             $('#lstPrinterPapers').html(options);
             // additional info...
