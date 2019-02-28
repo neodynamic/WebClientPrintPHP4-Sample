@@ -12,3 +12,11 @@ Website projects for **Classic PHP** as well as for **Laravel 5** are provided
 
 ## Know How WebClientPrint 4.0 for PHP Works
 Refer to the [Online Help Documentation](http://neodynamic.com/Products/Help/WebClientPrintPHP4.0/index.html)
+
+## Licensing
+
+**WebClientPrint is a Commercial** product. Licensing model and prices are available [here](https://neodynamic.com/products/printing/js-print-manager/buy)
+
+## Support
+
+Tech questions are handled by [Neodynamic Dev Team](https://neodynamic/support)
