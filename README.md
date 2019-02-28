@@ -15,7 +15,7 @@ Refer to the [Online Help Documentation](http://neodynamic.com/Products/Help/Web
 
 ## Licensing
 
-**WebClientPrint is a Commercial** product. Licensing model and prices are available [here](https://neodynamic.com/products/printing/js-print-manager/buy)
+**WebClientPrint is a Commercial** product. Licensing model and prices are available [here](https://neodynamic.com/products/printing/raw-data/php/buy)
 
 ## Support
 
